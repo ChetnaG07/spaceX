@@ -1,0 +1,55 @@
+@mixin transition($transition){
+	-moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin transform($property){
+	-webkit-transform: $property;
+	-ms-transform: $property;
+	transform: $property;
+}
+
+@mixin flexVcenter{
+	display: flex;
+	align-items: center;
+}
+@mixin flexhcenter{
+	display: flex;
+	justify-content: center;
+}
+@mixin flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+@mixin flexSbtween{
+	display: flex;
+	justify-content: space-between;
+}
+@mixin flexSaround{
+	display: flex;
+	justify-content: space-between;
+}
+@mixin flexstart{
+	display: flex;
+	align-items:flex-start;
+}
+@mixin flexHstart{
+	display: flex;
+	justify-content: flex-start;
+}
+@mixin flexHend{
+	display: flex;
+	justify-content:flex-end;
+}
+
+
+
+@mixin animation($animation){
+	-moz-animation:    $animation;
+    -o-animation:      $animation;
+    -webkit-animation: $animation;
+    animation:         $animation;
+}
