@@ -61,6 +61,7 @@ function Content(){
                             	year={item.launch_year}
                             	launch={item.launch_success}
                             	land={item.rocket.first_stage.cores.land_success}
+                            	image={item.links.mission_patch_small}
 							  />         
                       );
                   })}

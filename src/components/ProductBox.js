@@ -8,7 +8,7 @@ function ProductBox(props){
 			<Col xs={12} md={3}>
 				<div className="product-box">
 					<div className="product-img">
-						<img src="/images/product1.png" alt="" />
+						<img src={props.image} alt="" />
 					</div>
 					<h2 className="product-name">{props.pname}</h2>
 					<ListGroup as="ul">

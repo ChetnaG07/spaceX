@@ -20,7 +20,7 @@ const useApis = () => {
     const getList = async() => {
         try{
             let response = await instance.get('/')      
-           /* console.log("Response",response.data);*/
+            console.log("Response",response.data);
             setStateList(response.data);  
             setFilter(response.data);                  
             return response;
